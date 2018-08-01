@@ -1,0 +1,92 @@
+.test-button{
+font-size: 20px;
+color: gray;
+padding: 5px;
+margin: 20px;
+}
+.modals {
+    position: fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 300px;
+}
+.modal-wrapper{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    width: 200px;
+    background: #fff;
+    border-radius: 5px;
+    min-width: 500px;
+    position: relative;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .text {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0;
+} */
+.buttons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.modal-button {
+    font-size: 15px;
+    color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.modal-content {
+    background:  rgba(193, 29, 29,0.5);
+    color: #fff;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactName {
+    overflow: hidden; /* will contain if #first is longer than #second */
+    padding: 4px;
+}
+
+.ContactName label {
+    float: left;
+}
+
+.ContactName input {
+    margin-left: 10px;
+    float: right;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+    overflow: hidden;
+}
+.ContactForm > input,
+.ContactForm > textarea {
+    display: block;
+    width: 240px;
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+    border: 1px solid #888;
+    font-size: 14px;
+  }
+  .ContactForm > input.ContactForm-error {
+    border-color: #b30e2f;
+  }
